@@ -1,0 +1,5 @@
+name: root
+channels:
+  - conda-forge
+dependencies:
+  - root
