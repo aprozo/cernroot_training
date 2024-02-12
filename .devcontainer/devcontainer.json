@@ -15,5 +15,5 @@
             ]
         }
     },
-    "postCreateCommand": "cp -r $ROOTSYS/etc/notebook/kernels/root ~/.local/share/jupyter/kernels"
+    "postCreateCommand": "sh .devcontainer/post-create.sh"
 }
