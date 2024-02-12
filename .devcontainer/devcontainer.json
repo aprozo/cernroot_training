@@ -14,6 +14,5 @@
                 "ms-vscode.cpptools"
             ]
         }
-    },
-    "postCreateCommand":[ "cp -r $ROOTSYS/etc/notebook/kernels/root ~/.local/share/jupyter/kernels", "jupyter notebook"]
+    }
 }
