@@ -2,4 +2,4 @@ FROM rootproject/root:latest
 
 RUN apt-get update && apt-get install -y git python3-pip
 
-RUN python3 -m pip install --upgrade wheel jupyter metakernel
+RUN python3 -m pip install --upgrade wheel jupyter metakernel dask distributed pyspark
