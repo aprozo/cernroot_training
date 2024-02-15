@@ -9,7 +9,7 @@ RUN python3 -m pip install --upgrade wheel jupyter metakernel dask distributed p
 
 # Create a user that does not have root privileges 
 ARG username=physicist
-RUN userdel builder && useradd --create-home --home-dir /home/${username} ${username}
+RUN useradd --create-home --home-dir /home/${username} ${username}
 ENV HOME /home/${username}
 
 WORKDIR /home/${username}
