@@ -6,6 +6,7 @@
 
 Unfortunately, in order to run it with [ROOT C++ kernel](https://github.com/root-project/root/tree/master/bindings/jupyroot), one has to run it in terminal 
 ``` bash
+mkdir -p  ~/.local/share/jupyter/kernels
 cp -r $ROOTSYS/etc/notebook/kernels/root ~/.local/share/jupyter/kernels
 jupyter notebook --allow-root
 ```
