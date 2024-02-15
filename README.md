@@ -12,3 +12,9 @@ jupyter notebook --allow-root
 ```
 
 Then, wait untill the page is reloaded and choose Jupyter Kernel -> ROOT
+
+
+------------------------------------
+Part of the material has been reused from:
+* https://github.com/root-project/training
+* https://github.com/root-project/software-carpentry
