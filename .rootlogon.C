@@ -1,6 +1,5 @@
 {
-    // cout << "Loading .rootlogon.C" << endl;
-    gSystem->Load("libRooUnfold");
+    cout << "Loading .rootlogon.C" << endl;
 
     TStyle *myStyle = new TStyle("myStyle", "myStyle");
     myStyle->Reset("Modern");
@@ -32,22 +31,22 @@
     // Default Histogram Style Settings
     myStyle->SetHistFillColor(kTeal);
     myStyle->SetHistFillStyle(0); // solid fill (0 for hollow) //see http://root.cern.ch/root/html/TAttFill.html
-    myStyle->SetHistLineColor(kBlack);
+    myStyle->SetHistLineColor(kTeal);
     myStyle->SetHistMinimumZero(kTRUE);
     myStyle->SetNdivisions(505);
 
     // Default Function Style Settings
-    myStyle->SetFuncColor(kBlack);
+    myStyle->SetFuncColor(kRed);
     myStyle->SetFuncStyle(1); // see http://root.cern.ch/root/html/TAttLine.html
     myStyle->SetFuncWidth(3);
 
     // Default Line Style Settings
-    myStyle->SetLineColor(kBlack);
+    myStyle->SetLineColor(kBlue+1);
     myStyle->SetLineStyle(1); // see http://root.cern.ch/root/html/TAttLine.html
     myStyle->SetLineWidth(1); // is border of TLegend
 
     // Default Graph Style Settings
-    myStyle->SetMarkerColor(kBlack);
+    myStyle->SetMarkerColor(kBlue);
     myStyle->SetMarkerSize(1);   // see http://root.cern.ch/root/html/TAttMarker.html
     myStyle->SetMarkerStyle(22); // see http://root.cern.ch/root/html/TAttMarker.html
 
