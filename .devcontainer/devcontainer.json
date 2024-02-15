@@ -14,7 +14,8 @@
                 "ms-vscode.cpptools",
                 "ms-vscode.cpptools-extension-pack",
                 "ms-vscode.cpptools-themes",
-                "esbenp.prettier-vscode"
+                "esbenp.prettier-vscode",
+                
             ]
         }
     },
