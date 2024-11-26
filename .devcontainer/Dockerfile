@@ -1,4 +1,4 @@
-FROM rootproject/root:latest
+FROM rootproject/root:6.28.00-ubuntu22.04
 
 # # Run the following commands as super user (root):
 # USER root
