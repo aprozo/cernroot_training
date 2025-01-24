@@ -15,7 +15,7 @@ This is a self-contained tutorial for STAR/EIC workshop aimed at learning some R
 - Git clone this repo:
 
 ```bash
-git clone https://github.com/aprozo/cernroot_training
+git clone https://github.com/aprozo/root_workshop
 ```
 
 - One needs to install [ROOT](https://root.cern/install/)
